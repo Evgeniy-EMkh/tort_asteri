@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "no-var": "error",
+    "semi": "error",
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "prefer-const": "error",
+    "no-unreachable-loop": "error",
+    "no-template-curly-in-string": "error",
+    "no-self-compare": "error",
+    "no-proto": "error",
+    "no-undefined": "error",
+    "func-call-spacing": ["error", "never"],
+    "no-use-before-define": "off"
+  },
+  "parser": "vue-eslint-parser",
+  "extends": ["eslint:recommended", "@vue/eslint-config-typescript"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  }
+}
